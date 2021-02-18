@@ -3,7 +3,7 @@ using namespace std;
 // PROJECTS_1
 
 
-void Trapeze()
+void Trapeze() //by Denis Tomko
   {
   cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
   int h,a;
@@ -12,7 +12,7 @@ void Trapeze()
   int STr=a*h;
   cout << "Trapecijas laukums = " << STr << endl ;
 
-void Circle ()
+void Circle ()  // by Anna Butujeva
 {
   float R, S;
   cout << "Riņķa līnijas rādiuss ir " ;
