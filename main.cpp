@@ -2,6 +2,21 @@
 using namespace std;
 // PROJECTS_1
 
+void Paraleloram_angle ()
+{
+  int a, b, x; 
+  float pa;
+
+  cout << "\n Trijstura pamats ir: ";
+  cin >> a;
+  cout << "\n Sānu mala ir: ";
+  cin >> b; 
+  cout << "\n Paralelograma lenķu vērtība ir: ";
+  cin >> x;
+  cout << "\n Paralelograma laukums ir: ";
+  pa = a*b*sin(x); 
+  cout >> pa;
+}
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
