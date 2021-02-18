@@ -2,6 +2,14 @@
 using namespace std;
 // PROJECTS_1
 
+void Circle ()
+{
+  float R, S;
+  cout << "Riņķa līnijas rādiuss ir " ;
+  cin >> R;
+  S=R*R*3.14;
+  cout << "Riņķa līnijas laukums ir " << S << endl;
+  }
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
