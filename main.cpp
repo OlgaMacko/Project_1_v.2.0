@@ -2,6 +2,15 @@
 using namespace std;
 // PROJECTS_1
 
+void paralelograms();  
+int main() 
+{
+  int pamats, augstums, S;
+  cout << "Ievadiet paralelograma pamatu un augstumu";
+  cin >>  pamats >> augstums; 
+  S = pamats * augstums;    
+  cout << "Paralelograma laukums ir" << S;    
+}
 
 void Trapeze() //by Denis Tomko
   {
