@@ -4,6 +4,23 @@ using namespace std;
 
 
 int main() {
+  
+  void Triangle_angle()  
+
+{
+ int a, b, y, S;
+  cout << "Trijstūra pamats ir ";
+  cin >> a;
+  cout << "Trijstūra sānu mala ir ";
+  cin >> b;
+  cout << "Trijstura leņķa vērtība ir ";
+  cin >> y;
+  S=a*b*sin(y)/2;
+  cout << S;
+}
+  
+  
+  
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
   cout << " Nospiediet burtu:\n";
   cout << "T  - ja figūra trijstūris" << endl;
