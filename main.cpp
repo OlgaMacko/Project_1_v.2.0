@@ -2,6 +2,7 @@
 using namespace std;
 // PROJECTS_1
 
+
 void Trapeze()
   {
   cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
@@ -10,6 +11,15 @@ void Trapeze()
   cin >> a ;
   int STr=a*h;
   cout << "Trapecijas laukums = " << STr << endl ;
+
+void Circle ()
+{
+  float R, S;
+  cout << "Riņķa līnijas rādiuss ir " ;
+  cin >> R;
+  S=R*R*3.14;
+  cout << "Riņķa līnijas laukums ir " << S << endl;
+
   }
 
 int main() {
