@@ -22,9 +22,8 @@ void Circle ()  // by Anna Butujeva
 
   }
 
-int main() {
   
-  void Triangle_angle()  
+  void Triangle_angle()  // by Kristina Lapinska
 
 {
  int a, b, y, S;
@@ -35,10 +34,10 @@ int main() {
   cout << "Trijstura leņķa vērtība ir ";
   cin >> y;
   S=a*b*sin(y)/2;
-  cout << S;
+  cout << "Trijstūra laukums" << S;
 }
   
-  
+  int main() {
   
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
   cout << " Nospiediet burtu:\n";
