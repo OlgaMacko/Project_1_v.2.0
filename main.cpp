@@ -2,6 +2,15 @@
 using namespace std;
 // PROJECTS_1
 
+void Triangle()
+{
+  int mala,augstums;
+  cout << "Ievadiet malu un augstumu" << endl;
+  cin >> mala >> augstums >> endl;
+  int Laukums = (mala * augstums)/2;
+  cout << Laukums << endl;
+}
+
 void paralelograms();  
 int main() 
 {
