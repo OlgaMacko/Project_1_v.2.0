@@ -2,7 +2,7 @@
 using namespace std;
 // PROJECTS_1
 
-void Triangle()
+void Triangle()// by Diana Vanovicha
 {
   int mala,augstums;
   cout << "Ievadiet malu un augstumu" << endl;
@@ -11,7 +11,7 @@ void Triangle()
   cout << Laukums << endl;
 }
 
-void paralelograms();  
+void paralelograms();  // by Diana Tureiko
 int main() 
 {
   int pamats, augstums, S;
