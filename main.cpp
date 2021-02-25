@@ -2,6 +2,22 @@
 using namespace std;
 // PROJECTS_1
 
+
+void Paraleloram_angle () // by Ekaterina Blinova
+{
+  int a, b, x; 
+  float pa;
+
+  cout << "\n Trijstura pamats ir: ";
+  cin >> a;
+  cout << "\n Sānu mala ir: ";
+  cin >> b; 
+  cout << "\n Paralelograma lenķu vērtība ir: ";
+  cin >> x;
+  cout << "\n Paralelograma laukums ir: ";
+  pa = a*b*sin(x); 
+  cout >> pa;
+
 void Triangle()// by Diana Vanovicha
 {
   int mala,augstums;
@@ -9,6 +25,7 @@ void Triangle()// by Diana Vanovicha
   cin >> mala >> augstums >> endl;
   int Laukums = (mala * augstums)/2;
   cout << Laukums << endl;
+
 }
 
 void paralelograms();  // by Diana Tureiko
