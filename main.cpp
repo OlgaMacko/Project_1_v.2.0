@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 // PROJECTS_1
+void Square()//Maksims Fedosejevs
+{
+  int a, S; 
+  cout << "ievadiet kvadrata malu";
+  cin >> a;
+  S=a*a;
+  cout << S;
+}
 
 void Triangle()// by Diana Vanovicha
 {
