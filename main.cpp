@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 // PROJECTS_1
-void Square()//Maksims Fedosejevs
+void Square()//by Maksims Fedosejevs
 {
   int a, S; 
   cout << "ievadiet kvadrata malu";
@@ -37,7 +37,6 @@ void Triangle()// by Diana Vanovicha
 }
 
 void paralelograms();  // by Diana Tureiko
-int main() 
 {
   int pamats, augstums, S;
   cout << "Ievadiet paralelograma pamatu un augstumu";
