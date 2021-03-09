@@ -1,7 +1,19 @@
 #include <iostream>
 using namespace std;
 // PROJECTS_1
+   void rectangle (){
+   int sideA, sideB, area;
 
+   cout <<"ievadit tainsturu garumu: ";
+   cin >> sideA;
+   cout <<"ievadit taisnsturu platumu: ";
+   cin >> sideB;
+
+   area = sideA * sideB;
+
+   cout <<"Taisnstūra laukums: " << area << endl;
+   }
+   
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
